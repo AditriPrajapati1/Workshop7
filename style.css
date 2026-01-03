@@ -1,0 +1,121 @@
+/* General Body */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+/* Container */
+.container {
+    max-width: 800px;
+    margin: 50px auto;
+    padding: 30px;
+    background-color: #fff;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+    border-radius: 10px;
+}
+
+/* Headings */
+h2 {
+    text-align: center;
+    margin-bottom: 30px;
+    color: #444;
+}
+
+/* Forms */
+form input[type="text"],
+form input[type="password"],
+form select {
+    width: 100%;
+    padding: 12px;
+    margin: 10px 0 20px 0;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    font-size: 16px;
+    box-sizing: border-box;
+}
+
+/* Buttons */
+button {
+    background-color: #007bff;
+    color: #fff;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+/* Links */
+a {
+    color: #007bff;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Navigation Bar */
+nav {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+nav a {
+    display: inline-block;
+    padding: 10px 20px;
+    margin: 5px;
+    background-color: #eee;
+    border-radius: 6px;
+    transition: background-color 0.3s ease;
+}
+
+nav a:hover {
+    background-color: #007bff;
+    color: #fff;
+}
+
+/* Dark Mode Support */
+body.dark-mode {
+    background-color: #121212;
+    color: #eee;
+}
+
+body.dark-mode .container {
+    background-color: #1e1e1e;
+    box-shadow: 0 4px 12px rgba(255,255,255,0.05);
+}
+
+body.dark-mode input,
+body.dark-mode select {
+    background-color: #333;
+    color: #eee;
+    border: 1px solid #555;
+}
+
+body.dark-mode button {
+    background-color: #28a745;
+}
+
+body.dark-mode button:hover {
+    background-color: #1c7c31;
+}
+
+body.dark-mode nav a {
+    background-color: #333;
+    color: #eee;
+}
+
+body.dark-mode nav a:hover {
+    background-color: #28a745;
+    color: #fff;
+}
